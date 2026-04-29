@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="videojoc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+
+        <xs:element name="plataforma">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="PC"/>
+              <xs:enumeration value="PlayStation"/>
+              <xs:enumeration value="Switch"/>
+              <xs:enumeration value="Xbox"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="pegi" type="xs:integer"/>
+
+        <xs:element name="multijugador" type="xs:boolean"/>
+
+        <xs:element name="genere">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="aventura"/>
+              <xs:enumeration value="esports"/>
+              <xs:enumeration value="estrategia"/>
+              <xs:enumeration value="sandbox"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+        <xs:element name="mode" minOccurs="0">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="online"/>
+              <xs:enumeration value="offline"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
