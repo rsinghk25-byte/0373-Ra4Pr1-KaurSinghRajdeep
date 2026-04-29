@@ -1,0 +1,8 @@
+<!ELEMENT biblioteca (llibre+)>
+<!ELEMENT llibre (titol, autor, genere, paraulaClau*, any)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT genere (#PCDATA)>
+<!ELEMENT paraulaClau (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ATTLIST llibre isbn CDATA #REQUIRED>
