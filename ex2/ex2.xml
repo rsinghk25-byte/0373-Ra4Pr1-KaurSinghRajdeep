@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+  <llibre isbn="9788418183194">
+    <titol>La història interminable</titol>
+    <autor>Michael Ende</autor>
+    <genere>fantasia</genere>
+    <paraulaClau>aventura</paraulaClau>
+    <paraulaClau>màgia</paraulaClau>
+    <any>1979</any>
+  </llibre>
+  <llibre isbn="9788498382661">
+    <titol>Matilda</titol>
+    <autor>Roald Dahl</autor>
+    <genere>infantil</genere>
+    <any>1988</any>
+  </llibre>
+</biblioteca>
