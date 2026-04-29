@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona dni="12345678A" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="persona.xsd">
+  <nom>Jordi Fernàndez</nom>
+  <edat>28</edat>
+  <ciutat>Barcelona</ciutat>
+  <aficio>fotografia</aficio>
+  <aficio>senderisme</aficio>
+  <aficio>cuina</aficio>
+  <nivell>mitja</nivell>
+</persona>
