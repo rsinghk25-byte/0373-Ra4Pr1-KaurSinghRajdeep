@@ -1,0 +1,9 @@
+<alumne id="A001" tipus="presencial">
+  <nom>Maria</nom>
+  <cognom>García López</cognom>
+  <telefon>612345678</telefon>
+  <email>maria.garcia@exemple.com</email>
+  <modul>Llenguatge de marques</modul>
+  <modul>Bases de dades</modul>
+  <modul>Programació</modul>
+</alumne>
